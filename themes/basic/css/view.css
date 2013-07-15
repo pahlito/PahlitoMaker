@@ -1,0 +1,19 @@
+table.view_table caption {
+    background: #DDD;
+    border-radius: 4px;
+    padding: 4px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+table.view_table th {
+    text-align: left;
+}
+table.view_table td {
+    text-align: right;
+    padding: 0px 0px 0px 10px;
+}
+table.view_table {
+    margin: 20px auto;
+    border: 2px solid #EFEFEF;
+    border-radius: 4px;
+}

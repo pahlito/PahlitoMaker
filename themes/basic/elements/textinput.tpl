@@ -1,0 +1,1 @@
+<input type="text" name="{$element->name}" value="{$element->value}" class="{$element->type}{if $element->required} required{/if}" />

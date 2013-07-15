@@ -1,0 +1,66 @@
+/* Main Table */
+table.main_table {
+	border: 2px outset #EFEFEF;
+	border-radius: 6px;
+}
+table.main_table thead th,table.main_table thead td{
+	background: #DDD;
+	padding: 4px 10px;
+}
+table.main_table thead th:first-child, table.main_table thead td:first-child {
+	border-radius: 4px 0 0 0; 
+}
+table.main_table thead th:last-child, table.main_table thead td:first-child {
+	border-radius: 0 4px 0 0;
+}
+table.main_table tbody th,table.main_table tbody td{
+	background: #EFEFEF;
+	padding: 0 10px;
+}
+table.main_table tbody tr:last-child th:first-child, table.main_table tbody tr:last-child td:first-child {
+	border-radius: 0 0 0 4px; 
+}
+table.main_table tbody tr:last-child th:last-child, table.main_table tbody tr:last-child td:last-child {
+	border-radius: 0 0 4px 0;
+}
+table.main_table tbody tr:hover th, table.main_table tbody tr:hover td {
+	background: #FFF;
+}
+/*Row links*/
+div.row_links a {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+	border: 1px outset #EFEFEF;
+	border-radius: 5px;
+}
+div.row_links a:active {
+	border: 1px inset #EFEFEF;
+}
+div.row_links a.review {
+    background: url(../assets/review.png)center center no-repeat;
+}
+div.row_links a.update {
+    background: url(../assets/update.png)center center no-repeat;
+}
+div.row_links a.delete {
+    background: url(../assets/delete.png)center center no-repeat;
+}
+/* Action Links*/
+div.action_links {
+    margin: 10px auto;
+}
+div.action_links a {
+    text-decoration: none;
+    border: 1px outset #FEFEFE;
+    padding: 3px;
+    border-radius: 4px;
+    background: #FBFBFB;
+}
+div.action_links a:active {
+    border: 1px inset #FEFEFE;
+}
+div.action_links a:hover {
+    text-decoration: underline;
+}
+

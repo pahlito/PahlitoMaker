@@ -1,0 +1,40 @@
+#login_form table {
+    background: #DDD;
+    padding: 10px;
+    border-radius: 4px;
+}
+#login_form thead {
+    font-size: 20px;
+}
+#login_form thead th {
+    padding-bottom: 5px;
+    border-bottom: 1px #888 solid;
+    color: #888;
+}
+#login_form tbody th {
+    text-align: right;
+}
+td.error{
+	width: 280px;
+}
+#login_form tfoot th {
+    padding-top: 5px;
+    margin-top: 10px;
+    border-top: 1px #888 solid;
+}
+#login_form input[type="text"], #login_form input[type="password"] {
+	border: none;
+	font-size: 16px;
+	padding: 2px;
+	border-radius: 2px;
+	background: #888;
+	color: white;
+}
+input#submit {
+    padding: 6px 30px 6px 6px;
+    background: url(../assets/arrow.jpg) center right no-repeat #888;
+    font-size: 16px;
+    font-weight: bold;
+	border-radius: 5px;
+    color: #FFF;
+}
